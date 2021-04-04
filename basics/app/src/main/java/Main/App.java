@@ -10,10 +10,10 @@ public class App {
 
     public static void main(String[] args) {
         pluralize("cat",1);
-        flipNHeads(5) ;
-        clock();
+        flipNHeads(3) ;
+//        clock();
     }
-   public static void pluralize (String s,int n){
+    public static void pluralize (String s,int n){
         if(n>1){
             System.out.println("I own " + n + " "+ s +"s");
         }else {
@@ -23,27 +23,29 @@ public class App {
 
     }
     static void flipNHeads(int n){
-        int c=0;
-        for (int i=0 ;i<n ;i++){
+        int i=0,c=0,d=0;
+        while (i<n ){
             double z=(Math.random());
-
             if (z>0.5){
                 System.out.println("head");
                 c++;
+                i++;
             }else {
                 System.out.println("tail");
-
+                d++;
+                i=0;
             }
 
         }
-        System.out.println("It took "+n+" flip to flip " + c + "head in a row.");
+
+        System.out.println("It took "+(c+d)+" flip to flip " + n + " head in a row");
 
     }
     static void clock (){
 
         LocalDateTime now = LocalDateTime.now();
 
-       int i=1;
+        int i=1;
         int second = now.getSecond();
         i=second ;
 
@@ -62,4 +64,4 @@ public class App {
     }
 
 
-    }
+}
