@@ -13,7 +13,7 @@ public class App {
         flipNHeads(5) ;
         clock();
     }
-   public static void pluralize (String s,int n){
+    public static void pluralize (String s,int n){
         if(n>1){
             System.out.println("I own " + n + " "+ s +"s");
         }else {
@@ -36,14 +36,14 @@ public class App {
             }
 
         }
-        System.out.println("It took "+n+" flip to flip " + c + "head in a row.");
+        System.out.println("It took "+n+" flip to flip " + c + "head in a row");
 
     }
     static void clock (){
 
         LocalDateTime now = LocalDateTime.now();
 
-       int i=1;
+        int i=1;
         int second = now.getSecond();
         i=second ;
 
@@ -62,4 +62,4 @@ public class App {
     }
 
 
-    }
+}
