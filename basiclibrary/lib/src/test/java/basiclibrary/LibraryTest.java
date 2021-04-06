@@ -5,7 +5,9 @@ package basiclibrary;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -56,6 +58,39 @@ public class LibraryTest {
         int avg=classUnderTest.calculateTowDiemention(weeklyMonthTemperatures);
         assertEquals(399,avg);
 
+    }
+
+    @Test
+    public void five(){
+        int[][] array = {
+                {66, 64, 58, 65, 71, 57, 60},
+                {57, 65, 65, 70, 72, 65, 51},
+                {55, 54, 60, 53, 59, 57, 61},
+                {65, 56, 55, 52, 55, 62, 57}
+        };
+
+
+        Library classUnderTest = new Library();
+        String towDarray=classUnderTest.iterate();
+
+        assertEquals("never Saw tempetature"+63+"\n"+"never Saw tempetature"+67+"\n"+"never Saw tempetature"+68+"\n"+"never Saw tempetature"+69+"\n", towDarray);
+
+    }
+
+    @Test public void Six(){
+        List<String> votes = new ArrayList<>();
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Bush");
+        Library classUnderTest = new Library();
+        String voitingGame=classUnderTest.tally(votes);
+                assertEquals("Bush", voitingGame);
 
 
     }

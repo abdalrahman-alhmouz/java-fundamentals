@@ -3,9 +3,7 @@
  */
 package basiclibrary;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Library {
     public static int[] roll(int number){
@@ -58,5 +56,76 @@ public class Library {
 
 
         return avg  ; }
+
+    public static String iterate(){
+        Set<Integer> set=new HashSet<>();
+        int[][] array = {
+                {66, 64, 58, 65, 71, 57, 60},
+                {57, 65, 65, 70, 72, 65, 51},
+                {55, 54, 60, 53, 59, 57, 61},
+                {65, 56, 55, 52, 55, 62, 57}
+        };
+        int maxValue=array[0][0];
+        int minValue=array[0][0];
+        for(int i=0;i<array.length;i++){
+            for(int j=0;j<array[0].length;j++){
+                set.add(array[i][j]);
+                if(array[i][j]>maxValue){
+                    maxValue=array[i][j];
+                }
+                if(array[i][j]<minValue){
+                    minValue=array[i][j];
+                }
+            }
+
+        }
+
+        System.out.println("high "+maxValue);
+        System.out.println("low "+minValue);
+
+        String uniqTempreture="";
+        for(int j=minValue;j<maxValue;j++){
+            if(set.contains(j)==false){
+                uniqTempreture+="never Saw tempetature"+j+"\n";
+            }
+        }
+//        System.out.println(uniqTempreture);
+
+        return uniqTempreture ;
+    }
+
+    public static String tally(List<String> votes){
+        HashMap<String, Integer> vot = new HashMap<String, Integer>();
+
+
+        Map<String,Integer> map =
+                new HashMap<String, Integer>();
+        for (String str : votes)
+        {
+            if (map.keySet().contains(str)){
+                map.put(str, map.get(str) + 1);
+
+            }else
+                map.put(str, 1);
+
+
+        }
+        int maxValueInMap = 0;
+        String winner = "";
+        for (Map.Entry<String,Integer> entry : map.entrySet())
+        {
+            String key  = entry.getKey();
+            Integer val = entry.getValue();
+            if (val > maxValueInMap)
+            {
+                maxValueInMap = val;
+                winner = key;
+
+            }
+        }
+        return winner ;
+
+
+    }
 
 }
