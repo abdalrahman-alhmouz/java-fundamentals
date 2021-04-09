@@ -10,6 +10,9 @@
 # lab-02
 <!-- Short summary or background information -->
  * write for function  and do a test for each one .
+ * i wrote a roll method that accept int number this methode must give me a random number btween [1-6] and it must return array with number length ;
+ * as i also wrote a calculateTowDiemention method that accebt 2d array and sum the value of each row in this array and i return the maximum total som value ;
+ * as i also wrote a calculateAvg method that accebt  array and sum the value in this array and i return the total som value ;
 
 ## Challenge
 <!-- Description of the challenge -->
