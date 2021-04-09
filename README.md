@@ -7,13 +7,16 @@
 - for testing this code do the test inside the app
 
 =======
-# lab-02
+# lab-01
 <!-- Short summary or background information -->
- * write for function  and do a test for each one .
+ * write a pluralize method that take (String s, int n) if the insrart number is equall or liss than one then System.out.println("I own " + n + " "+ s); else print without s
+ * write flipNHeads function  that accept number after this i did while lop to get random number if the random number les than (.5)then print head else print tail .
+ * 
+ *   * write clock  function then i did while lop to get change in each second ,min and hour anouther while loop to check if the second change  .
 
 ## Challenge
 <!-- Description of the challenge -->
- * actually it was hard  speacialy 2d array  .
+ * actually it was hard  do clock method  .
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
