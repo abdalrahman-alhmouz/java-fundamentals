@@ -12,10 +12,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 public class LibraryTest {
-//    @Test public void testSomeLibraryMethod() {
-//        Library classUnderTest = new Library();
-//        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
-//    }
+
     @Test
     public void testOne(){
         int num=6;
@@ -30,7 +27,6 @@ public class LibraryTest {
         Library classUnderTest = new Library();
         boolean rest=classUnderTest.containsDuplicates();
         assertTrue(rest);
-//        assertFalse(rest);
     }
 
     @Test
