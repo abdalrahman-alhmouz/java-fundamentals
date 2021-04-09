@@ -14,6 +14,7 @@
  * 
  *   * write clock  function then i did while lop to get change in each second ,min and hour anouther while loop to check if the second change  .
 
+
 ## Challenge
 <!-- Description of the challenge -->
  * actually it was hard  do clock method  .
