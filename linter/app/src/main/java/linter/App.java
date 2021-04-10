@@ -12,48 +12,40 @@ import java.util.*;
 import java.nio.file.Path;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
-
+  
     public static void main(String[] args) {
+                System.out.println(readFile("gatesOne.js"));
+    }
+     public static String readFile(String read){
+        String miss ="" ;
+        int num=5 ;
+        Path path = Paths.get(read);
+        try {
+            List<String> lines = Files.readAllLines(path);
+            for (int i = 0; i < lines.size(); i++) {
 
-        System.out.println(new App().getGreeting());
+                if (lines.get(i).contains(";")) {
 
-        Path path = Paths.get("C:\\Users\\Abood\\Abdalrahman\\401\\java-fundamentals\\linter\\app\\src\\main\\resources\\gates.js");
-        try{
-            List<String> lines=Files.readAllLines(path);
-            System.out.println("the line test is " + lines);
-            for(int i=0 ;i<lines.size();i++){
-                if (lines.get(i).contains(";")){
-//                    System.out.println("yes it have ;");
+                } else if (lines.get(i).contains("{")) {
 
-                }else if (lines.get(i).contains("{")){
-//                    System.out.println("yes it {");
+                } else if (lines.get(i).contains("}")) {
 
-                }else if (lines.get(i).contains("}")){
-//                    System.out.println("yes it }");
+                } else if (lines.get(i).contains("if")) {
 
-                }else  if (lines.get(i).contains("if")){
-//                    System.out.println("yes it if");
+                } else if (lines.get(i).contains("else")) {
 
-                }else if (lines.get(i).contains("else")){
-//                    System.out.println("yes it else");
+                } else if (lines.get(i).isEmpty()) {
 
-                }else if(lines.get(i).isEmpty()){
-//                    System.out.println("yes it null");
-
-                } else{
-                    System.out.println("Line :"+(i+1)+" Missing semicolon");
-
+                } else {
+                    miss = miss+"Line :" + (i + 1) + " Missing semicolon " ;
                 }
-                }
+            }
 
-
-
-        } catch (Exception ex ){
-            System.out.println("the line te"+ex);
+        } catch (Exception ex) {
+            System.out.println("the line te" + ex);
 
         }
+        return miss;
+
     }
 }
