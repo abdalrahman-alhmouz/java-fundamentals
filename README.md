@@ -6,13 +6,9 @@
 - I will be using only java langauge.
 - for testing this code do the test inside the app
 
-=======
-# lab-01
-<!-- Short summary or background information -->
- * write a pluralize method that take (String s, int n) if the insrart number is equall or liss than one then System.out.println("I own " + n + " "+ s); else print without s
- * write flipNHeads function  that accept number after this i did while lop to get random number if the random number les than (.5)then print head else print tail .
- * 
- *   * write clock  function then i did while lop to get change in each second ,min and hour anouther while loop to check if the second change  .
+# lab-03
+* In this lab, the first thing I did was read the file, then I made a for loop containing many if statements , each statement had a condition if any line contained ( At the end of the line) any of these symbols (;, {,}, if, another) and a null line .
+Otherwise, just print this line (line: “+ (i + 1) +” missing semicolon) with the line number
 
 
 ## Challenge

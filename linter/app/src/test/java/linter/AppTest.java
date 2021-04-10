@@ -7,10 +7,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class AppTest {
-    @Test public void testAppHasAGreeting() {
-
-    }
-    @Test public void testRead(){
-
+    @Test public void read() {
+        App classUnderTest = new App();
+        String read =classUnderTest.readFile("../gatesOne.js");
+        System.out.println(read);
+        assertEquals("Line :3 Missing semicolon Line :8 Missing semicolon Line :10 Missing semicolon Line :12 Missing semicolon ",read);
     }
 }
