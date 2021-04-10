@@ -14,7 +14,7 @@ import java.nio.file.Path;
 public class App {
   
     public static void main(String[] args) {
-                System.out.println(readFile("gatesOne.js"));
+                System.out.println(readFile("gates.js"));
     }
      public static String readFile(String read){
         String miss ="" ;
