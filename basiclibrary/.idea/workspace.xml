@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6ebd7ff-a740-47d2-949a-0fa0d5e84098" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/app/src/main/java/Main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/app/src/main/java/Main/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/basiclibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/basiclibrary.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../linter" />
   </component>
   <component name="RunManager" selected="Gradle.LibraryTest">
     <configuration name="LibraryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -188,7 +186,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/lib/src/test/java/basiclibrary/LibraryTest.java</url>
           <line>34</line>
-          <properties class="basiclibrary.LibraryTest" method="Three">
+          <properties class="basiclibrary.LibraryTest">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />

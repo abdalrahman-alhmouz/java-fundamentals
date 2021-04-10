@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f333c5f4-f614-455b-98fd-bd0f2a4450e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/basiclibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/.idea/basiclibrary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/app/src/main/java/Main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/app/src/main/java/Main/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
