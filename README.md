@@ -26,4 +26,3 @@
 ## Solution
 <!-- Embedded whiteboard image -->
 acttualy the soultion time was 5 hour .
->>>>>> main
