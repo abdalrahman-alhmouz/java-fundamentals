@@ -6,13 +6,11 @@
 - I will be using only java langauge.
 - for testing this code do the test inside the app
 
-=======
-# lab-01
-<!-- Short summary or background information -->
- * write a pluralize method that take (String s, int n) if the insrart number is equall or liss than one then System.out.println("I own " + n + " "+ s); else print without s
- * write flipNHeads function  that accept number after this i did while lop to get random number if the random number les than (.5)then print head else print tail .
- * 
- *   * write clock  function then i did while lop to get change in each second ,min and hour anouther while loop to check if the second change  .
+# lab-06
+In this lab, the first thing I did was created a Resturant class with constructor ,toStribg and AddReview method without inheritance ;
+* then created a shop class with constructor ,toStribg and AddReview method without inheritance ;
+* then created a Review class with constructor ,toStribg and AddReview method without inheritance ;
+* the finally associate a review with a restaurant ;
 
 
 ## Challenge
@@ -26,4 +24,3 @@
 ## Solution
 <!-- Embedded whiteboard image -->
 acttualy the soultion time was 5 hour .
->>>>>> main
