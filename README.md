@@ -6,11 +6,9 @@
 - I will be using only java langauge.
 - for testing this code do the test inside the app
 
-# lab-06
-In this lab, the first thing I did was created a Resturant class with constructor ,toStribg and AddReview method without inheritance ;
-* then created a shop class with constructor ,toStribg and AddReview method without inheritance ;
-* then created a Review class with constructor ,toStribg and AddReview method without inheritance ;
-* the finally associate a review with a restaurant ;
+# lab-07
+* In this lab, the first thing I did was created a shop class with constructor ,toStribg and AddReview method without inheritance ;
+* then i  created a Theater  class with constructor ,toStribg ,AddMovies,RemoveMovie and AddReview method  also i did another Review class (ReviewTheater) and inherted it to a Review class ;
 
 
 ## Challenge
@@ -23,4 +21,4 @@ In this lab, the first thing I did was created a Resturant class with constructo
 
 ## Solution
 <!-- Embedded whiteboard image -->
-acttualy the soultion time was 5 hour .
+acttualy the soultion time was 3 hour .

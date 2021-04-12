@@ -1,5 +1,7 @@
 package inheritance;
 
+import java.util.ArrayList;
+
 public class Restaurant {
     String name ;
     int starNumber ;
@@ -11,20 +13,22 @@ public class Restaurant {
         this.setPrice(price);
     }
     public void addReview(Review review){
-      if(review.getName()!=this.getName() && review!=this.review){
+        ArrayList<Review> arrayList=new ArrayList<>();
+
+//      if(review.getName()!=this.getName() && review!=this.review){
     this.setStarNumber(review.getStarNum());
-      }
-        review.setName(this.getName());
-        review.setPrice(this.getPrice());
+//      }
+//        review.setName(this.getName());
+//        review.setPrice(this.getPrice());
         this.review=review;
-//        return this.toString()+" "+review.toString() ;
+        arrayList.add(review);
+        System.out.println(review);
     }
 
     public Restaurant(String name){
         this.setName(name);
     }
-
-    public String toString(){//overriding the toString() method
+@Override  public String toString(){//overriding the toString() method
         return name+" number of stars "+starNumber+" price category "+price;
     }
 

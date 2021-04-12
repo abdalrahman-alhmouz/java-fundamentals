@@ -1,28 +1,21 @@
 package inheritance;
 
-public class Review extends Restaurant{
+public class Review extends ReviewTheater{
  String body ,auther ;
  int starNum ;
-    public Review(String name,String body , String auther , int starNum){
-        super(name);
+ public Review(){
+
+ }
+    public Review(String body , String auther , int starNum){
         this.setBody(body);
         this.setAuther(auther);
         this.setStarNum(starNum);
 
     }
-    public Review(String name,int starNumber,int price,String body , String auther , int starNum){
-        super(name,starNumber,price);
-        this.setBody(body);
-        this.setAuther(auther);
-        this.setStarNum(starNum);
 
 
-
-    }
-
-
-    public String toString(){
-        return "the resturant is :"+ name+"name : "+auther+ "review : "+body+" number of stars "+starNum;
+   @Override public String toString(){
+        return auther+ "review : "+body+" number of stars "+starNum;
     }
     public int getStarNum() {
         return starNum;
