@@ -21,4 +21,4 @@
 
 ## Solution
 <!-- Embedded whiteboard image -->
-acttualy the soultion time was 5 hour .
+acttualy the soultion time was 3 hour .
