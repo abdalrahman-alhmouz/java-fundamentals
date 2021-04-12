@@ -6,9 +6,11 @@
 - I will be using only java langauge.
 - for testing this code do the test inside the app
 
-# lab-03
-* In this lab, the first thing I did was read the file, then I made a for loop containing many if statements , each statement had a condition if any line contained ( At the end of the line) any of these symbols (;, {,}, if, another) and a null line .
-Otherwise, just print this line (line: “+ (i + 1) +” missing semicolon) with the line number
+# lab-06
+In this lab, the first thing I did was created a Resturant class with constructor ,toStribg and AddReview method without inheritance ;
+* then created a shop class with constructor ,toStribg and AddReview method without inheritance ;
+* then created a Review class with constructor ,toStribg and AddReview method without inheritance ;
+* the finally associate a review with a restaurant ;
 
 
 ## Challenge
