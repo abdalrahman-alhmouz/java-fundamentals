@@ -1,23 +1,24 @@
 package inheritance;
 
+import java.util.ArrayList;
+
 public class Restaurant {
-    String name ;
+    String name  ;
     int starNumber ;
    Review review ;
     int price ;
-    public Restaurant(String name,int starNumber,int price){
+    ArrayList<Review> reviews=new ArrayList<>();
+    public Restaurant(String name,int price){
         this.setName(name);
-        this.setStarNumber(starNumber);
         this.setPrice(price);
     }
+
     public void addReview(Review review){
-      if(review.getName()!=this.getName() && review!=this.review){
-    this.setStarNumber(review.getStarNum());
-      }
-        review.setName(this.getName());
-        review.setPrice(this.getPrice());
+        ArrayList<Review> arrayList=new ArrayList<>();
+        this.setStarNumber(review.getStarNum());
         this.review=review;
-//        return this.toString()+" "+review.toString() ;
+        arrayList.add(review);
+        System.out.println(review);
     }
 
     public Restaurant(String name){

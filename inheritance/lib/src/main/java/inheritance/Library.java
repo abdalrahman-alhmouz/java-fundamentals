@@ -7,6 +7,6 @@ public class Library {
     public boolean someLibraryMethod() {
         return true;
     }
-    Restaurant resOne=new Restaurant("steakpotato",4,50);
+//    Restaurant resOne=new Restaurant("steakpotato",4,50);
 
 }
