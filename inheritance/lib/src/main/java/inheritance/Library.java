@@ -7,6 +7,23 @@ public class Library {
     public boolean someLibraryMethod() {
         return true;
     }
+<<<<<<< HEAD
 //    Restaurant resOne=new Restaurant("steakpotato",4,50);
+=======
+
+    public static void main(String[] args) {
+        Review resTo=new Review("i do like it  ","rama yaser",3);
+        Theater theater=new Theater("hobe");
+        Review resTow=new Review("i do like it  ","rama yaser",4);
+
+        Shop shop=new Shop("hopeShop","its a greate shop have evry thing",5);
+        shop.addReview(resTow);
+        System.out.println(shop);
+//        theater.addReview(resTo);
+//        theater.addMovie("hello");
+//        System.out.println(theater);
+    }
+
+>>>>>>> 5c12dae9936921edd8455ad0696e91d5a06a0ebc
 
 }

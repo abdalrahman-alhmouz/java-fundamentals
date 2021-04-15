@@ -15,7 +15,16 @@ public class Restaurant {
 
     public void addReview(Review review){
         ArrayList<Review> arrayList=new ArrayList<>();
+<<<<<<< HEAD
         this.setStarNumber(review.getStarNum());
+=======
+
+//      if(review.getName()!=this.getName() && review!=this.review){
+    this.setStarNumber(review.getStarNum());
+//      }
+//        review.setName(this.getName());
+//        review.setPrice(this.getPrice());
+>>>>>>> 5c12dae9936921edd8455ad0696e91d5a06a0ebc
         this.review=review;
         arrayList.add(review);
         System.out.println(review);
@@ -24,8 +33,7 @@ public class Restaurant {
     public Restaurant(String name){
         this.setName(name);
     }
-
-    public String toString(){//overriding the toString() method
+@Override  public String toString(){//overriding the toString() method
         return name+" number of stars "+starNumber+" price category "+price;
     }
 

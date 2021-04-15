@@ -6,9 +6,9 @@
 - I will be using only java langauge.
 - for testing this code do the test inside the app
 
-# lab-03
-* In this lab, the first thing I did was read the file, then I made a for loop containing many if statements , each statement had a condition if any line contained ( At the end of the line) any of these symbols (;, {,}, if, another) and a null line .
-Otherwise, just print this line (line: “+ (i + 1) +” missing semicolon) with the line number
+# lab-07
+* In this lab, the first thing I did was created a shop class with constructor ,toStribg and AddReview method without inheritance ;
+* then i  created a Theater  class with constructor ,toStribg ,AddMovies,RemoveMovie and AddReview method  also i did another Review class (ReviewTheater) and inherted it to a Review class ;
 
 
 ## Challenge
@@ -21,4 +21,4 @@ Otherwise, just print this line (line: “+ (i + 1) +” missing semicolon) with
 
 ## Solution
 <!-- Embedded whiteboard image -->
-acttualy the soultion time was 5 hour .
+acttualy the soultion time was 3 hour .
