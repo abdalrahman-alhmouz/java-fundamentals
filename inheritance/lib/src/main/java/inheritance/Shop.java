@@ -51,7 +51,7 @@ public class Shop {
         this.shopName = name;
     }
     public String getShopName() {
-       return shopName ;
+        return shopName ;
     }
 
 }
